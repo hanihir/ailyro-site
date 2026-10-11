@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bleu" x1="100" y1="94" x2="380" y2="323" gradientUnits="userSpaceOnUse"><stop stop-color="#38e1ff"/><stop offset=".32" stop-color="#1fb6ff"/><stop offset=".65" stop-color="#2d5bff"/><stop offset="1" stop-color="#2a2fb8"/></linearGradient>
+    <linearGradient id="cyan" x1="190" y1="290" x2="389" y2="189" gradientUnits="userSpaceOnUse"><stop stop-color="#124be8"/><stop offset=".58" stop-color="#06cfee"/><stop offset="1" stop-color="#9cfff5"/></linearGradient>
+    <linearGradient id="aqua" x1="196" y1="334" x2="439" y2="290" gradientUnits="userSpaceOnUse"><stop stop-color="#26dfff"/><stop offset=".38" stop-color="#006fcc"/><stop offset=".77" stop-color="#00dbea"/><stop offset="1" stop-color="#95fff5"/></linearGradient>
+    <linearGradient id="bord" x1="62" y1="94" x2="299" y2="177" gradientUnits="userSpaceOnUse"><stop stop-color="#b8fff7"/><stop offset=".45" stop-color="#38e1ff"/><stop offset="1" stop-color="#218cff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="fil" x1="133" y1="334" x2="332" y2="468" gradientUnits="userSpaceOnUse"><stop stop-color="#04ecee"/><stop offset=".52" stop-color="#0aa8ff"/><stop offset=".78" stop-color="#a1caff"/><stop offset="1" stop-color="#2449db"/></linearGradient>
+  </defs>
+  <g id="queue"><path d="M210 293C174 324 132 350 132 381C132 421 210 424 251 433C288 441 312 450 329 468C304 433 264 426 226 420C188 414 139 409 141 379C143 353 177 329 214 306Z" fill="url(#fil)"/></g>
+  <g id="aile-gauche">
+    <path d="M62 94C118 73 158 96 193 118C242 149 264 148 290 136C300 132 315 128 322 134C313 140 301 142 304 152C263 184 227 225 195 296C190 309 161 309 135 329C155 309 185 295 177 281C145 257 138 239 136 213C132 159 116 112 62 94Z" fill="url(#bleu)"/>
+    <path d="M65 94C110 77 151 96 174 132C194 163 206 217 194 278L185 299C189 268 168 263 159 241C143 212 158 150 119 116C106 105 89 99 65 94Z" fill="#08d8ee" opacity=".56"/>
+    <path d="M136 103C181 129 195 171 198 218C225 181 252 161 290 142C245 158 218 143 187 123C168 112 151 104 136 103Z" fill="#003bdd" opacity=".8"/>
+    <path d="M62 94C120 73 160 99 194 120C236 146 262 151 290 136" stroke="url(#bord)" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g id="aile-droite">
+    <path d="M188 305C229 260 267 208 304 152C322 158 338 178 354 173C365 171 360 156 367 155C376 158 368 181 379 204C391 229 425 246 449 285C464 309 470 333 463 354C449 321 413 292 376 292C331 291 301 321 263 315C240 311 217 303 188 319Z" fill="url(#bleu)"/>
+    <path d="M193 303C231 265 274 245 312 217C335 200 351 183 365 190C379 198 373 213 399 239C419 259 452 283 463 326C442 277 396 243 349 243C292 243 251 285 193 313Z" fill="url(#cyan)"/>
+    <path d="M188 319C246 281 293 271 336 267C393 261 444 293 463 354C459 320 464 320 459 303C425 239 376 237 325 250C274 262 244 292 188 319Z" fill="url(#aqua)"/>
+    <path d="M194 310C243 276 285 249 332 244C377 239 418 260 444 296C411 267 380 252 343 257C287 263 255 293 226 305C212 311 204 313 194 310Z" fill="#001c79" opacity=".42"/>
+    <path d="M365 190C379 198 373 213 399 239C419 259 452 283 463 326" stroke="#84fff5" stroke-opacity=".65" stroke-width="1.5"/>
+  </g>
+  <g id="corps"><path d="M181 311C195 275 202 234 225 201C242 178 264 147 280 152C295 160 249 190 226 222C208 248 199 285 181 311Z" fill="url(#cyan)"/><path d="M181 312C219 286 246 272 276 258C244 281 218 303 188 320Z" fill="#03c9e9"/></g>
+</svg>
